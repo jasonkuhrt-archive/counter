@@ -1,0 +1,27 @@
+{
+  "name": "counter",
+  "version": "0.0.0",
+  "description": "Functional utility for bookkeeping a changing number",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jasonkuhrt/counter.git"
+  },
+  "keywords": [
+    "number",
+    "functional",
+    "counter",
+    "decrement",
+    "increment",
+    "count",
+    "flag"
+  ],
+  "author": "Jason Kuhrt <jasonkuhrt@me.com> (http://jasonkuhrt.com/)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jasonkuhrt/counter/issues"
+  }
+}
