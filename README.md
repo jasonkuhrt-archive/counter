@@ -5,7 +5,7 @@ Functional utility for bookkeeping a changing number
 
 # Installation
 
-    npm install counter
+    npm install jasonkuhrt-counter
 
 
 # API
