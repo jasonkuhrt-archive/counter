@@ -1,11 +1,9 @@
 {
-  "name": "counter",
-  "version": "0.0.0",
+  "name": "jasonkuhrt-counter",
+  "version": "0.0.1",
   "description": "Functional utility for bookkeeping a changing number",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git://github.com/jasonkuhrt/counter.git"
