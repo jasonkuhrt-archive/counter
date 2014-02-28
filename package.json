@@ -1,6 +1,6 @@
 {
   "name": "jasonkuhrt-counter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Functional utility for bookkeeping a changing number",
   "main": "index.js",
   "scripts": {},
