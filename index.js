@@ -12,7 +12,6 @@ function Counter(from){
   };
 
   count.state = {
-    resets: [],
     value: from
   };
 
@@ -29,14 +28,7 @@ function Counter(from){
 var api = {};
 
 api.reset = function reset(counter){
-  counter.state.resets.push(counter.value);
   counter.state.value = counter.conf.from;
-  return counter;
-};
-
-api.clear = function clear(counter){
-  api.reset(counter);
-  counter.state.resets.length = 0;
   return counter;
 };
 
@@ -64,5 +56,5 @@ api.dec = function dec(counter){
 
 
 module.exports = Counter;
-module.exports.Counter = Counter;
+module.exports.counter = Counter;
 augment(module.exports, api);

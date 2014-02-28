@@ -10,7 +10,7 @@ Functional utility for bookkeeping a changing number
 
 # API
 
-#### Counter
+#### counter
 #### value
 #### inc
 #### dec
